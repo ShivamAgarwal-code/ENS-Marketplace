@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* BG */
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.bg-rbgradient {
+
+  /* font-family: 'Andika', sans-serif; */
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+
+
+  background-color: rgb(17, 24, 39);
+  background-image: radial-gradient(at 50% 0%, rgb(15, 23, 42) 0, transparent 100%), radial-gradient(at 27% 55%, rgb(30, 58, 138) 0, transparent 37%), radial-gradient(at 21% 57%, rgb(30, 58, 138) 0, transparent 42%), radial-gradient(at 81% 52%, rgb(220, 38, 38) 0, transparent 50%);
+
+}
+
+.brand-logo {
+  /* font-family: 'Andika', sans-serif; */
+}
+
+.bg-login {
+
+  background-color: rgb(15, 23, 42);
+  background-image: radial-gradient(at 0% 0%, rgb(15, 23, 42) 0, transparent 98%), radial-gradient(at 100% 100%, rgb(15, 23, 42) 0, transparent 100%), radial-gradient(at 8% 68%, rgb(30, 64, 175) 0, transparent 93%), radial-gradient(at 61% 44%, rgb(244, 63, 94) 0, transparent 100%);
+
+}
+
+
+/* Loaders */
+
+.loader-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.loader-list li {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+  animation: ani 1.6s ease-in-out infinite;
+}
+
+@keyframes ani {
+
+  0%,
+  40%,
+  100% {
+    transform: scale(0.2);
+  }
+
+  20% {
+    transform: scale(0.6);
+  }
+
+}
+
+.dot-1 {
+  animation-delay: -1.4s !important;
+  background: #ffff00;
+  box-shadow: 0 0 50px #ffff00;
+
+}
+
+.dot-2 {
+  animation-delay: -1.2s !important;
+  background: #76ff03;
+  box-shadow: 0 0 50px #76ff03;
+}
+
+.dot-3 {
+  animation-delay: -1s !important;
+  background: #f06292;
+  box-shadow: 0 0 50px #f06292;
+}
+
+.dot-4 {
+  animation-delay: -0.8s !important;
+  background: #4fc3f7;
+  box-shadow: 0 0 50px #4fc3f7;
+}
