@@ -1,4 +1,4 @@
-# DENS (ENS-Marketplace)
+# ENS-Marketplace
 ## Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)
